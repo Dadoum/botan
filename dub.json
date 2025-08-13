@@ -79,19 +79,37 @@
         {
             "name": "lite",
             "versions": [
-                "Locking_Allocator", "SHA2_32", "SHA2_64", "MD4", "MD5", "SHA1", "CRC24", "PBKDF1", "PBKDF2", "CTR_BE", "HMAC", "Entropy_HRTimer", "Entropy_Rdrand", "Entropy_DevRand", "Entropy_EGD", "Entropy_UnixProc", "Entropy_CAPI", "Entropy_Win32", "Entropy_ProcWalk", "X931_RNG", "HMAC_DRBG", "KDF1", "KDF2", "SSL_V3_PRF", "TLS_V10_PRF", "TLS_V12_PRF", "X942_PRF"
+                "Locking_Allocator", "SHA2_32", "SHA2_64", "MD4", "MD5", "SHA1", "CRC24", "PBKDF1", "PBKDF2", "CTR_BE", "HMAC", "Entropy_DevRand", "Entropy_EGD", "Entropy_UnixProc", "Entropy_CAPI", "Entropy_Win32", "Entropy_ProcWalk", "X931_RNG", "HMAC_DRBG", "KDF1", "KDF2", "SSL_V3_PRF", "TLS_V10_PRF", "TLS_V12_PRF", "X942_PRF"
+            ],
+            "versions-x86_64": [
+                "Entropy_Rdrand", "Entropy_HRTimer"
+            ],
+            "versions-x86": [
+                "Entropy_Rdrand", "Entropy_HRTimer"
             ]
         },
         {
             "name": "pubkey",
             "versions": [
-                "Locking_Allocator", "SHA2_32", "SHA2_64", "MD4", "MD5", "SHA1", "CRC24", "Nyberg_Rueppel", "Diffie_Hellman", "ECDH", "PUBKEY", "X509", "RSA", "RW", "DLIES", "DSA", "ECDSA", "ElGamal", "GOST_3410", "Curve25519", "HMAC", "Entropy_HRTimer", "Entropy_Rdrand", "Entropy_DevRand", "Entropy_EGD", "Entropy_UnixProc", "Entropy_CAPI", "Entropy_Win32", "Entropy_ProcWalk", "KDF1", "KDF2", "SSL_V3_PRF", "TLS_V10_PRF", "TLS_V12_PRF", "X942_PRF", "PBE_PKCSv20", "CBC", "EME_OAEP", "EME_PKCS1v15", "PBE_PKCSv20"
+                "Locking_Allocator", "SHA2_32", "SHA2_64", "MD4", "MD5", "SHA1", "CRC24", "Nyberg_Rueppel", "Diffie_Hellman", "ECDH", "PUBKEY", "X509", "RSA", "RW", "DLIES", "DSA", "ECDSA", "ElGamal", "GOST_3410", "Curve25519", "HMAC", "Entropy_DevRand", "Entropy_EGD", "Entropy_UnixProc", "Entropy_CAPI", "Entropy_Win32", "Entropy_ProcWalk", "KDF1", "KDF2", "SSL_V3_PRF", "TLS_V10_PRF", "TLS_V12_PRF", "X942_PRF", "PBE_PKCSv20", "CBC", "EME_OAEP", "EME_PKCS1v15", "PBE_PKCSv20"
+            ],
+            "versions-x86_64": [
+                "Entropy_Rdrand", "Entropy_HRTimer"
+            ],
+            "versions-x86": [
+                "Entropy_Rdrand", "Entropy_HRTimer"
             ]
         },
         {
             "name": "hash",
             "versions": [
-                "Locking_Allocator", "HMAC", "Entropy_Win32", "Entropy_Rdrand", "SHA2_32", "SHA2_64", "MD4", "MD5", "SHA1", "CRC24"
+                "Locking_Allocator", "HMAC", "Entropy_Win32", "SHA2_32", "SHA2_64", "MD4", "MD5", "SHA1", "CRC24"
+            ],
+            "versions-x86_64": [
+               "Entropy_Rdrand"
+            ],
+            "versions-x86": [
+               "Entropy_Rdrand"
             ]
         }
     ]
